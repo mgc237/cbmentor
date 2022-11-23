@@ -363,10 +363,10 @@
 	}
 	
 	// Google Map Settings
-	if($('map-location').length){
+	if($('#map-location').length){
 		var map;
 		 map = new GMaps({
-			el: 'map-location',
+			el: '#map-location',
 			zoom: 14,
 			scrollwheel:false,
 			//Set Latitude and Longitude Here
