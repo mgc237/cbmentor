@@ -363,10 +363,10 @@
 	}
 	
 	// Google Map Settings
-	if($('#map-location').length){
+	if($('map-location').length){
 		var map;
 		 map = new GMaps({
-			el: '#map-location',
+			el: 'map-location',
 			zoom: 14,
 			scrollwheel:false,
 			//Set Latitude and Longitude Here
@@ -379,7 +379,7 @@
 			lat: -37.817085,
 			lng: 144.955631,
 			infoWindow: {
-			  content: '<p><strong>Envato</strong><br>Melbourne VIC 3000, Australia</p>'
+			  content: '<p><strong>CB Mentoring</strong><br>Station Place, Cambridge</p>'
 			}
 		 
 		});
