@@ -362,28 +362,6 @@
 		});
 	}
 	
-	// Google Map Settings
-	if($('#map-location').length){
-		var map;
-		 map = new GMaps({
-			el: '#map-location',
-			zoom: 14,
-			scrollwheel:false,
-			//Set Latitude and Longitude Here
-			lat: -37.817085,
-			lng: 144.955631
-		  });
-		  
-		  //Add map Marker
-		  map.addMarker({
-			lat: -37.817085,
-			lng: 144.955631,
-			infoWindow: {
-			  content: '<p><strong>CB Mentoring</strong><br>Station Place, Cambridge</p>'
-			}
-		 
-		});
-	}
 	
 	// Scroll to top
 	if($('.scroll-to-top').length){
